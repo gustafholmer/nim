@@ -4,7 +4,7 @@ An implementation of the classic game "Nim" using Java. This project was part of
 # Author: Gustaf Holmer
 
 # How to run the program:
-Compile and then run nmGame.java.
+Compile, then run nmGame.java.
 
 # Program structure:
 I wrote the program by having a class called "nmGame" where the main method is available that takes the input from the terminal when the game is started in the terminal. An object is created from the "Game" class. In "Game" there is the method "activate" where two player objects are created. You can choose the type of player to play the game, computers or human players. These players inherit methods from class player (). This gives a structure to the program and makes it possible to see what unique methods are needed in the inherited player classes.
