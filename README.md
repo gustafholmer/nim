@@ -6,7 +6,7 @@ An implementation of the classic game "Nim" using Java. This project was part of
 # How to run the program:
 Compile and then run nmGame.java.
 
-# Structure of program:
+# Program structure:
 I wrote the program by having a class called "nmGame" where the main method is available that takes the input from the terminal when the game is started in the terminal. An object is created from the "Game" class. In "Game" there is the method "activate" where two player objects are created. You can choose the type of player to play the game, computers or human players. These players inherit methods from class player (). This gives a structure to the program and makes it possible to see what unique methods are needed in the inherited player classes.
 
 When the selection of the type of player you want "Game" is ready, a while loop is activated that loops through itself until the "startValue" from the input in the terminal reaches 1, when this happens the game ends. In the while loop, methods such as input from the terminal from human players are activated. In the loop, the current number of knitting needles is written and which player ultimately wins. I made the decision that when it says 0 in the variable "answer1", it means the next player is lost.
