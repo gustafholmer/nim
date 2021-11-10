@@ -3,7 +3,7 @@ An implementation of the classic game "Nim" using Java. This project was part of
 
 # Author: Gustaf Holmer
 
-# How to run the program:
+# Usage
 Compile, then run nmGame.java.
 
 # Program structure:
