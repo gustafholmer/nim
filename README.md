@@ -1,8 +1,6 @@
 # nim
 An implementation of the classic game "Nim" using Java. This project was part of an assignment in object-oriented programming course.
 
-# Author: Gustaf Holmer
-
 # Usage
 Compile, then run nmGame.java.
 
